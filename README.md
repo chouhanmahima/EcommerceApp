@@ -50,8 +50,7 @@ Your app is ready to be deployed!
 
 
 ### Home Page
-
-![image of the home page](src\assets\Screenshots\Screenshot(96).png)
+![Screenshot (96)](https://github.com/chouhanmahima/EcommerceApp/assets/142296544/fd95d497-45c8-42d2-a74c-b61cce28b06d)
 
 The home page serves as the entry point, showcasing featured products and providing quick access to product categories.
 
@@ -65,7 +64,7 @@ You can singIn to your account by clicking on the SignIn button. Once you have s
 
 This is the page that will show all the items that you are interested in buying at the time.
 
-![image of cart page](src\assets\Screenshots\Screenshot(100).png)
+![Screenshot (100)](https://github.com/chouhanmahima/EcommerceApp/assets/142296544/8271c5cb-e22e-4ad4-8493-aa8a292ea2d4)
 
 This will be the UI when a user has added some items to the cart.
 In the cart the items added will be shown as cards. Each card can be deleted and quantity will be increased and decreased accordingly.
@@ -73,18 +72,18 @@ In the cart the items added will be shown as cards. Each card can be deleted and
 
 #### Cart page with no items added in the cart
 
-![cart page is empty](src\assets\Screenshots\Screenshot(101).png)
+![Screenshot (101)](https://github.com/chouhanmahima/EcommerceApp/assets/142296544/d95bf7fe-cb43-4d2f-802e-d7ad8ffe56c7)
 
 
 ### Registration Page
 
-![image of registration page](src\assets\Screenshots\Screenshot(98).png)
+![Screenshot (98)](https://github.com/chouhanmahima/EcommerceApp/assets/142296544/0837a154-5b1a-4a7d-a7e3-8bcb6d45ef1b)
 
 This is the registration page from where users can create accounts to login to the app. Once you have successfully created an acount you will be redirected to the signIn page so that you can singIn to your acount.
 
 
 ### SignIn Page
 
-![image of signIn page](src\assets\Screenshots\Screenshot(97).png)
+![Screenshot (97)](https://github.com/chouhanmahima/EcommerceApp/assets/142296544/5d9d4054-d5b8-4109-9303-da73d907b2fb)
 
 This is the signIn page where users can login to their accounts. Once you have signedIn successfully the app will redirect you to the home page of the site
