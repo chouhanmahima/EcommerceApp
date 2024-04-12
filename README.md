@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App -->
+# Ecommerce Application
+
+Welcome to  Basic Ecommerce Application repository! This project is a fully functional e-commerce platform built using HTML, CSS, JavaScript, React, and various other technologies. It allows users to browse products, add items to their cart, and proceed with the checkout process seamlessly.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -27,44 +30,61 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Core Technologies
+- HTML/CSS
+- JS/ES6
+- Node/npm
+- React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend libraries and tools
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Redux Toolkit
+- React Router DOM
+- Axios
+- Firebase
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Pages
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image of the home page](src\assets\Screenshots\Screenshot(96).png)
 
-### Code Splitting
+The home page serves as the entry point, showcasing featured products and providing quick access to product categories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ From here you can search for among the products that are available at the time in the store.
+</br>
+if one clicks on Add to cart button of any products will let a user add the particular item to there cart.
+</br>
+You can singIn to your account by clicking on the SignIn button. Once you have signedIn  the SignOut button will shown  , that will let you signout of your acount.
 
-### Analyzing the Bundle Size
+### Cart Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is the page that will show all the items that you are interested in buying at the time.
 
-### Making a Progressive Web App
+![image of cart page](src\assets\Screenshots\Screenshot(100).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This will be the UI when a user has added some items to the cart.
+In the cart the items added will be shown as cards. Each card can be deleted and quantity will be increased and decreased accordingly.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Cart page with no items added in the cart
 
-### Deployment
+![cart page is empty](src\assets\Screenshots\Screenshot(101).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Registration Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image of registration page](src\assets\Screenshots\Screenshot(98).png)
+
+This is the registration page from where users can create accounts to login to the app. Once you have successfully created an acount you will be redirected to the signIn page so that you can singIn to your acount.
+
+
+### SignIn Page
+
+![image of signIn page](src\assets\Screenshots\Screenshot(97).png)
+
+This is the signIn page where users can login to their accounts. Once you have signedIn successfully the app will redirect you to the home page of the site
